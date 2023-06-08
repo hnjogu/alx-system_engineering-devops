@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -Ap | sort -df | sed ':a;N;$!ba;s/\n/, /g;s/\(.*\)/\1\n/'
